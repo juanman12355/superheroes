@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">app1</string>
+    <string name="superman">Es el superheroe mas popular de los comics</string>
+    <string name="batman">Es un detective amigo de superman</string>
+    <string name="supermandesc">"Superman nació en el planeta Krypton y recibió el nombre de Kal-El al nacer. Cuando era bebé, sus padres, el científico Jor-El, y su esposa Lara Lor-Van, lo enviaron a la Tierra en una pequeña nave espacial momentos antes de que Krypton fuera destruido en un cataclismo natural. Su nave aterrizó en el campo estadounidense, cerca de la ciudad ficticia de Smallville. Fue encontrado y adoptado por los agricultores Jonathan y Martha Kent, quienes lo llamaron Clark Kent. "</string>
+    <string name="batmannombre">Batman</string>
+    <string name="batmandesc">"La identidad secreta de Batman es Bruce Wayne (Bruno Díaz en algunos países de habla hispana),​ un multimillonario magnate empresarial y filántropo dueño de Empresas Wayne en Gotham City. Después de presenciar el asesinato de sus padres, el Dr. Thomas Wayne y Martha Wayne en un violento y fallido asalto cuando era niño, juró venganza contra los criminales, un juramento moderado por el sentido de la justicia. "</string>
+    <string name="nombreapp">Superheroes de DC</string>
+    <string name="supermannombre">Superman</string>
+    <string name="casasheroes">Lugares donde viven los superheroes</string>
+    <string name="supermancasa">Superman vive en un apartamento cerca al centro de metropolis</string>
+    <string name="batmancasa">Batman vive en su lujosa mansion en una zona alejada de ciudad gotica, y su baticueva esta bajo su mansion</string>
+    <string name="nombrevillanos">Villanos principales de cada superheroe</string>
+    <string name="luthornombre">Lex Luthor</string>
+    <string name="luthordesc">Lex Luthor era originalmente un científico loco, pero desde finales de la década de 1980, ha sido retratado más a menudo como un magnate de los negocios loco por el poder, el director ejecutivo de LexCorp. Quiere librar al mundo de Superman, aparentemente porque Superman es una amenaza para la humanidad, pero en realidad porque envidia la popularidad y la influencia de Superman.</string>
+    <string name="guasonnombre">Guason</string>
+    <string name="guasondesc">Se le asocia con una personalidad psicópata con un humor sádico y retorcido, lo que le ha llevado a ser catalogado como la antítesis de Batman. Con la excepción de una etapa en la que mantuvo un rol de bromista simple, desde los años 1970 Joker ha preservado sus orígenes siniestros y ha estado involucrado en ciertos momentos decisivos de Batman,​ como el asesinato de Jason Todd y la parálisis de Barbara Gordon.</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/titulo_texto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombreapp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.023" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="206dp"
+            android:layout_height="136dp"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="@string/superman"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/superman"
+            tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/subtitulo_texto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/supermannombre"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.028"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.125"
+                tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/descripcion_texto"
+            android:layout_width="376dp"
+            android:layout_height="176dp"
+            android:layout_marginBottom="62dp"
+            android:text="@string/supermandesc"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/subtitulo_texto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/batmannombre"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.026"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="473dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="199dp"
+            android:layout_height="135dp"
+            android:contentDescription="@string/batman"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/batman"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="515dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/descripcion_texto"
+                android:layout_width="376dp"
+                android:layout_height="107dp"
+                android:text="@string/batmandesc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="668dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
